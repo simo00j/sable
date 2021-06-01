@@ -717,7 +717,6 @@ unsigned sable_compute_double_tiled_stable_omp(unsigned nb_iter)
 
 ///////////////////////////// open CL
 static cl_mem changed, ocl_changes;
-static cl_mem in_state, out_state;
 static volatile int changement;
 
 void swap_mem(cl_mem *m1, cl_mem *m2)
